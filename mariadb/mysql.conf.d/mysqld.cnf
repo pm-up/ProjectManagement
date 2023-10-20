@@ -42,6 +42,7 @@ general_log_file        = /var/log/mysql/general.log
 ### Slow queries log settings
 slow_query_log                          = 1
 long_query_time                         = 1
+skip_name_resolve                       = 1
 
 # Not Using Indexes Throttling per minutes
 log_throttle_queries_not_using_indexes  = 0
